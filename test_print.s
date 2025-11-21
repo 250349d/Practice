@@ -2,9 +2,9 @@
 	global _start
 	extern print_eax
 _start:
-	mov eax, 0xffff
+	mov eax, 8
 	call print_eax
-	mul eax
+	mov eax, 57
 	call print_eax
 
 	mov eax, 1

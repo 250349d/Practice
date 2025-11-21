@@ -4,7 +4,7 @@
 	global print_eax
 
 ndigit:	equ 32			; 桁数
-	
+
 print_eax:
 	push ebx
 	push ecx
